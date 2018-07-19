@@ -5,9 +5,11 @@ using UnityEngine;
 public class NoteGenerator : MonoBehaviour {
 
     int Note = 0;
-    public List<Vector3> NotePositions = new List<Vector3>();
     public List<GameObject> NoteColor = new List<GameObject>();
+    public List<GameObject> NoteTargets = new List<GameObject>();
 
+    public Transform parent;
+    
     // Use this for initialization
     void Start () {
         StartCoroutine(generator());
@@ -28,6 +30,34 @@ public class NoteGenerator : MonoBehaviour {
     }
 
     void generateNote(int Color){
-        GameObject newNote = Instantiate(NoteColor[Color - 1], NotePositions[Color - 1], Quaternion.identity);
+        GameObject newNote = Instantiate(NoteColor[Color - 1], NoteColor[Color - 1].transform.position, Quaternion.identity) as GameObject;
+        newNote.transform.SetParent(parent);
+        StartCoroutine(MoveToPosition(newNote.transform, NoteTargets[Color - 1].transform.position, 6f));
+    }
+
+    //float t;
+    //Vector3 startPos;
+    //Vector3 targetPos;
+    //float timeMove;
+    /*
+    public void SetDestination(Vector3 destination, float time)
+    {
+        t = 0;
+        startPos = transform.position;
+        timeMove = time;
+        targetPos = destination;
+    }
+    */
+
+    public IEnumerator MoveToPosition(Transform transform, Vector3 position, float timeToMove)
+    {
+        var currentPos = transform.position;
+        var t = 0f;
+        while (t < 1)
+        {
+            t += Time.deltaTime / timeToMove;
+            transform.position = Vector3.Lerp(currentPos, position, t);
+            yield return null;
+        }
     }
 }
