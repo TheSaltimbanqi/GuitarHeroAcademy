@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 6219fba94908fa54d986818a689e50a6
+timeCreated: 1502145534
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: MicStand_Base
+    100002: MicStand_Boom_Arm
+    100004: MicStand_Boom_Clamp
+    100006: MicStand_Boom_Mid
+    100008: MicStand_Clip
+    100010: MicStand_Straight_Mid
+    100012: PA_12in_Monitor
+    100014: PA_8in_Speaker
+    100016: PA_Mong00z_Head
+    100018: //RootNode
+    100020: Stroud97_Mic
+    400000: MicStand_Base
+    400002: MicStand_Boom_Arm
+    400004: MicStand_Boom_Clamp
+    400006: MicStand_Boom_Mid
+    400008: MicStand_Clip
+    400010: MicStand_Straight_Mid
+    400012: PA_12in_Monitor
+    400014: PA_8in_Speaker
+    400016: PA_Mong00z_Head
+    400018: //RootNode
+    400020: Stroud97_Mic
+    2300000: MicStand_Base
+    2300002: MicStand_Boom_Arm
+    2300004: MicStand_Boom_Clamp
+    2300006: MicStand_Boom_Mid
+    2300008: MicStand_Clip
+    2300010: MicStand_Straight_Mid
+    2300012: PA_12in_Monitor
+    2300014: PA_8in_Speaker
+    2300016: PA_Mong00z_Head
+    2300018: Stroud97_Mic
+    3300000: MicStand_Base
+    3300002: MicStand_Boom_Arm
+    3300004: MicStand_Boom_Clamp
+    3300006: MicStand_Boom_Mid
+    3300008: MicStand_Clip
+    3300010: MicStand_Straight_Mid
+    3300012: PA_12in_Monitor
+    3300014: PA_8in_Speaker
+    3300016: PA_Mong00z_Head
+    3300018: Stroud97_Mic
+    4300000: PA_12in_Monitor
+    4300002: PA_Mong00z_Head
+    4300004: MicStand_Boom_Clamp
+    4300006: MicStand_Boom_Mid
+    4300008: MicStand_Boom_Arm
+    4300010: MicStand_Clip
+    4300012: MicStand_Straight_Mid
+    4300014: MicStand_Base
+    4300016: Stroud97_Mic
+    4300018: PA_8in_Speaker
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
